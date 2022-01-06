@@ -1,0 +1,74 @@
+
+.error{
+    opacity: 0;
+}
+
+.liste{
+	position: absolute;
+    z-index: 2;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%)
+}
+
+
+
+p{   
+    margin-top: 50px;
+    font-size: 28px;
+    color: white;
+}
+
+.liste .edit{
+    margin-top:20px;
+
+}
+
+label{
+    margin-top: 50px;
+    display:block;
+    color:#fff;
+}
+
+input[type=text]{
+    background-color: white;
+    background-repeat: no-repeat;
+    padding-left:10px;
+    padding:16px 32px;
+    margin-top: 20px;
+}
+
+input[type=submit]{
+    background-color: white;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 14px;
+    padding:16px 32px;
+    text-decoration: none;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+
+
+.select-css{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:768px){
+    .liste{
+        opacity: 0;
+    }
+
+    .error{
+
+        opacity: 1;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+
